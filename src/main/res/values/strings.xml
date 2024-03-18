@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Captive-Portal-Analyzer</string>
+
+    <!--  main Activity  -->
+    <string name="greetingText">Welcome to the captive portal analyzer. This project has been developed during a bachelor thesis at the Ruhr university of bochum. Its purpose is to detect leaks of private information on captive portals of public WiFis. \n\nThank you for helping us by collecting data from captive portals. \n\nPlease note that some private information maybe sent to us when you proceed with the analysis. \n\nThe application needs permission to your location to work properly. Please grant it this permission to avoid further complications.</string>
+    <string name="proceed">proceed</string>
+    <string name="explainProcedure">First you have to connect with a WiFi hotspot. The log-in process can be started when you click on \"analyze hotspot\". \n\n<font fgcolor='#FF0000'>After you have successfully logged into the captive portal, click on \"done\" shown in the top right corner of menu bar of the next site.</font></string>
+    <string name="analyze_hotspot">Analyze hotspot</string>
+    <string name="b_scan">Scan for WiFi networks</string>
+
+    <!--  ListAvailableWiFi  -->
+    <string name="AllowAppToEstablishWiFiConnection">You may have to accept that the application is allowed to set a WiFi connection!</string>
+
+    <!--  CaptivePortalAnalysis  -->
+    <string name="downloading_resources_please_wait">- Downloading resources, please wait</string>
+    <string name="NoCaptivePortalFound">Couldn\'t find any captive portal in current WiFi connection!</string>
+    <string name="end">Thanks for the efforts, please click on \"upload\" to upload the collected data to the server!</string>
+    <string name="uplaod">uplaod</string>
+    <string name="delete_unneeded_folders">delete unneeded Folders</string>
+    <string name="internetAvailable">Looks like this network does not have any captive portal, or you have already signed in.</string>
+    <string name="afterUploading">Thanks again for helping us to learn more about captive portal data practices. You can click on \"Delete unneeded files\" to make sure that no data is left behind. The app can be closed now.</string>
+    <string name="closeApp">Thanks again for you time, you can close the application now</string>
+
+
+</resources>
